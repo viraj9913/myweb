@@ -144,6 +144,10 @@ p{
   padding-right: 2%;
   background-color: #474F7A;
 }
+.custom-btn-width {
+  width: 100%; /* Set the width as per your design */
+  margin: 0 auto; 
+}
 .btn-link {
   color: inherit; /* Makes the link take the color of the button */
   text-decoration: none; /* Removes the underline */
