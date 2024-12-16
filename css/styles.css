@@ -124,6 +124,14 @@ p{
 }
 /* ************************************************************************************ */
 /* Projects Section */
+#company-project{
+  background-color: #474F7A;
+  padding:110px 110px;
+  text-align:center;
+}
+#company-project .project-heading{
+  color:white;
+}
 #project{
   background-color: #474F7A;
   padding:110px 110px;
