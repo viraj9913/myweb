@@ -76,8 +76,10 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="big-heading">I'm Viraj Dhadge<br></h1>
-          <p class="small-heading">A recent graduate from Cardiff Universtiy, currently looking for opportunities in Technical or other related fields. I am eager to apply my knowledge and skills to create meaningful changes in the real world.</p>
+          <h1 class="big-heading">I'm Viraj<br></h1>
+          <p class="small-heading">A recent graduate from Cardiff Universtiy, currently looking for opportunities in Technical or other related fields. I am eager to apply my knowledge and skills to create meaningful changes in the real world.
+          Please feel free to explore my projects and other academic details. For any questions or wanting to collaborate with any project, you can approach on LinkedIn or Email.
+          </p>
           
         </div>
 
@@ -246,7 +248,7 @@
     <p class="vis-description">Above are the 2 visualisations which demonstrates my work. For this project, my target audience were students and accordingly the visualisation was designed. I have also created my medium article, to support the choice for fonts and colors used in the visualisation. Follow the link to learn more about these visualisation on <a class='link' href="https://medium.com/@dhadge.viraj/key-element-for-good-visualisation-84a4c2fdb744" target="_blank">medium article <i class="fa-brands fa-medium fa-1x"></i></a> and the link for code on <a class='link' href="https://github.com/viraj9913/DataVisualisation" target="_blank">github <i class="fa-brands fa-github fa-1x"></i></a></p>
     
     <br><br><br><hr style="color:white; border-style:dashed;">
-  <i style="color:white">Power BI dashboard (Job Market Analysis)</i><br><br>
+  <h5 style="color:white">Power BI dashboard (Job Market Analysis)</h5><br><br>
 
   <video controls  width="65%" src="video/recording.mp4"></video>
   <br><br><br>
@@ -258,6 +260,22 @@
   </p> 
   </section>
 
+<!-- ************************************************************************************************ -->
+<!-- project on LLM AI -->
+<section id="LLM-AI">
+  <h3 class="self-project-heading">AI based Project</h3>
+  <h4 class="llm-heading">Audio Summarizer</h4>
+  <div class="proj1-container">
+    <p class="llm-description">
+      The project focuses on summarizing the audio files. These files could either be wav or mp3 type. The aim of the project was to provide the summary of the podcast. User can simply paste the audio file or text to obtain the summary of the overall podcast, rather than hearing the entire audio. This will allow them to quikly receive the main feature of the topic.
+      There are different stages involved, starting from loading the pretrained whisper model, transcribe the audio file to return a text file and using open source LLM to summarize the file. Finally used streamlit to host the web application. To ensure that the model can be accessed from any geogrpahical location, Hugging Face to host the website. Below is the link to access the web: <a href="https://audio-summarize-xgp79iz92ybyyfcn2jmxmv.streamlit.app/" target="_blank" style="color:white">Streamlit app</a><br><br>
+    </p>
+    <a href="https://audio-summarize-xgp79iz92ybyyfcn2jmxmv.streamlit.app/" target="_blank">
+      <img class='screenshot' src="images/Podcast summarize UI.png" alt="Website Screenshot">
+    </a>
+    
+  </div>
+</section>
 
 
 <!-- ************************************************************************************************ -->
@@ -265,7 +283,7 @@
 
   <section id="self-project">
 
-    <h3 class="self-project-heading">Self Project on Machine Learning</h3>
+    <h3 class="self-project-heading">Projects on Machine Learning</h3>
     <div class="proj1-container">
 
           <h4>Forecasting future GDP of the UK</h4><br>
@@ -273,7 +291,7 @@
             Linear Regression helped in finding the relationship between independent and dependent feature. 
             Both models ARIMAX & SARIMAX, showed its signifance for prediction. <br><br>
             SARIMAX model offered seasonality which becomes essential, where there is a specific pattern in the data. These patterns maybe a certain time period of the year, when we observe the rise or fall of value. With this functionality, our model can understand the trend exceptionally well for each year, which makes it idle for seasonal data.  <br>
-            On the other hand, ARIMA model is quite straight-forward compared to SARIMAX. It doesn't provide seasonality, meaning model fails to understand the pattern when there is rise of value for certain time period of the year. Instead, ARIMA model is more focused on trend which has either increasing, decreeasing or stationary pattern. Since our dataset deals with the GDP of the UK, the data shows the rise of GDP for each year. This model was also superior for this project.
+            On the other hand, ARIMA model is quite straight-forward compared to AI based Project. It doesn't provide seasonality, meaning model fails to understand the pattern when there is rise of value for certain time period of the year. Instead, ARIMA model is more focused on trend which has either increasing, decreeasing or stationary pattern. Since our dataset deals with the GDP of the UK, the data shows the rise of GDP for each year. This model was also superior for this project.
             Whereas, VAR model was also employed which behaves similar to ARIMA & SARIMAX model. <br><br>
             In order to use these models, data must be stationary. We can perform adfuller test, to ensure whether the data is stationary or not. If there is no stationary, we perform differencing on the column which is not stationary. This makes the dataset stationary and ready to use by model. Further, we plot ACF and PACF chart to obtain the value of 'p', 'q' which are the parameters used in these models. 'd' is also another parameter which is differencing. We assign the value of 'd' based on the number of times differencing performed. Hence, selection of the correct value for these parameters, makes the model prediction significantly accurate. 
             Code for this project can be found <a href="https://github.com/viraj9913/GDPprediction" target="_blank">here</a> <i class="fa-brands fa-github fa-1x"></i></a></p>
