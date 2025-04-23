@@ -159,6 +159,7 @@ p{
 .btn-link {
   color: inherit; /* Makes the link take the color of the button */
   text-decoration: none; /* Removes the underline */
+  padding: 0.5%;
 }
 .btn-link:hover {
   text-decoration: none; /* Ensures no underline on hover */
