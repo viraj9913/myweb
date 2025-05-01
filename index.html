@@ -39,7 +39,65 @@
 </head>
 
 <body>
+    <!-- REMOVE BELOW  -->
+  <!-- <section id="navmenubar">
+    <div class="navbar">
+      the id targets the data-bs-target
 
+        # margin start auto (It will set the margin to auto, it will fill up spaces)\
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#company-project">Company Projects</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Self Projects</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </section> -->
+
+  <!-- REMOVE ABOVE  -->
+  <section id="navmenubar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <!--margin start auto (It will set the margin to auto, it will fill up spaces)-->
+            <!-- me-3 allows to create a spacing between each list -->
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#title">About Me</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#company-project">Company Projects</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#testimonials">Self Projects</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- about me section -->
   <section id="title">
     <div class="container-fluid">
 
@@ -47,27 +105,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <!-- <a class="navbar-brand" href="">tindog</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--this is the drag down menu for smaller window-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--the id targets the data-bs-target -->
-          <ul class="navbar-nav ms-auto">
-            <!--margin start auto (It will set the margin to auto, it will fill up spaces)-->
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#company-project">Company Projects</a>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Self Projects</a>
-            </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+
+        </button>        
       </nav>
 
 
@@ -93,8 +132,8 @@
 
   <!-- *********************************************************************************************************** -->
   <!-- 2nd scroll education -->
-  <h2 class="education-heading">Education</h2>
   <section id="education">
+    <h2 class="education-heading">Education</h2>
     
     <div class="row">
       <div class="col">
@@ -337,7 +376,7 @@
           </p>
           <div class="row">
             <div class="col">
-              <img class='graph' src="images/ROC-GradientBoosting.jpg" alt="">
+              <img class='graph' src="images/ROC-GradientBoosting.jpg" alt="">0
             </div>
             <div class="col">
               <img class='graph' src="images/ROC-RandomForest.jpg" alt="">
